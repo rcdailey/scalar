@@ -9,6 +9,12 @@
   on every release - edits made directly here will be overwritten.
 -->
 
+## 0.21.1 (2026-11-06)
+
+### Fixed a security issue with mock store operations
+
+[Read full release notes](https://github.com/scalar/scalar/blob/main/packages/mock-server/CHANGELOG.md#0211)
+
 ## 0.21.0 (2026-11-05)
 
 ### Response hooks and smarter path matching

@@ -1,5 +1,30 @@
 [
   {
+    "version": "1.1.48",
+    "date": "2026-11-06",
+    "title": "OpenID Connect flow defaults after discovery",
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "This release adds support for prefilling OpenID Connect authentication settings after fetching the provider configuration, making it easier to work with OIDC-protected APIs."
+      },
+      {
+        "type": "list",
+        "items": [
+          "OpenID Connect flows now support preconfigured client IDs, scopes, and PKCE settings that apply after discovery",
+          "When a single flow is configured, it is automatically selected after fetching the OpenID Connect configuration",
+          "All discovered flows remain available even when defaults are configured for a specific flow"
+        ],
+        "ordered": false
+      },
+      {
+        "type": "href",
+        "href": "https://github.com/scalar/scalar/blob/main/projects/scalar-app/CHANGELOG.md#1148",
+        "label": "Read full release notes"
+      }
+    ]
+  },
+  {
     "version": "1.1.47",
     "date": "2026-11-05",
     "title": "Authentication overrides, body reset, and response improvements",

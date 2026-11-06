@@ -9,6 +9,19 @@
   on every release - edits made directly here will be overwritten.
 -->
 
+## 1.77.1 (2026-11-06)
+
+### Grouping and version display improvements
+
+Deep-object query parameters now collapse into expandable groups, making complex filters easier to scan. Version identifiers like commit hashes display exactly as written in your OpenAPI document.
+
+- Deep-object query parameters with expandable fields collapse into a single row that you can expand to see all nested properties
+- Version identifiers display verbatim without an automatic v prefix, so commit hashes and custom version schemes remain accurate
+- Expanded parameter groups stay open when navigating between child fields in the same group
+- Required indicators now appear only when every ancestor parameter is also required
+
+[Read full release notes](https://github.com/scalar/scalar/blob/main/packages/api-reference/CHANGELOG.md#1771)
+
 ## 1.77.0 (2026-11-05)
 
 ### Custom authentication per document and extension rendering improvements
